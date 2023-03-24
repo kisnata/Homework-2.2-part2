@@ -1,7 +1,8 @@
 public class Truck extends Car {
 
 
-    public void checkTrailer() {
+    public void check() {
+        System.out.println("Проверяем двигатель");
         System.out.println("Проверяем прицеп");
     }
 

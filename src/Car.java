@@ -1,6 +1,6 @@
-public class Car extends Vehicle {
+public class Car extends Vehicle implements ServiceStationInterface {
 
-    public void checkEngine() {
+    public void check() {
         System.out.println("Проверяем двигатель");
     }
 
