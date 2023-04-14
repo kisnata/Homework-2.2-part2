@@ -1,7 +1,7 @@
 public class ServiceStation {
     private void checkVehicle(Vehicle vehicle) {
-        System.out.println("Обслуживаем " + vehicle.modelName);
-        for (int i = 0; i < vehicle.wheelsCount; i++) {
+        System.out.println("Обслуживаем " + vehicle.name);
+        for (int i = 0; i < vehicle.wheels; i++) {
             vehicle.updateTyre();
         }
         }
